@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+.author-link li:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.author-link{
+  text-decoration: none;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* 
+{
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.navbar .search{
+  margin-left: 60px;
+}
+.navbar input{
+  border-radius: 3px;
+  width: 200px;
+  height: 25px;
+}
+.navbar button{
+  margin-left: 16px;
+  padding: 6px;
+  background: #f1356d;
+  border:0;
+  color:#fafafa;
+  border-radius: 7px;
+
+}
+.content {
+  margin: 100px auto;
+  padding: 50px;
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+.blog-preview a{
+  text-decoration: none;
+}
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 30px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+.create h2:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 400px;
+  margin-top: px;
+}
+.create a{
+  text-decoration: none;
+}
+
+.create a h2:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+
+
+.kullaniciPanel {
+  margin: 10px;
+}
+.kullaniciPanel label {
+  text-align: left;
+  display: block;
+}
+.kullaniciPanel h2 {
+  font-size: 40px;
+  color: #f1356d;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+.kullaniciPanel input, .create textarea, .create select {
+  width: 28%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.kullaniciPanel button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 400px;
+  margin-top: px;
+}
+.kullaniciPanel a{
+  text-decoration: none;
+}
+
+.kullaniciPanel a h2:hover{
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
